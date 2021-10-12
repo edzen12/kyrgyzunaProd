@@ -1,0 +1,267 @@
+
+
+/* News top banner */
+.news_top_banner{
+    background: url('../../assets/Новости/office.jpg') center / cover;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.news_top_banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+}
+.news_top_banner_content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #efefef !important;
+    position: relative;
+}
+.news_top_banner_content h1{
+    font-size: 4rem;
+}
+
+/* Carousel */
+.slick-slide{
+    width: 100%;
+    height: 80vh;
+}
+
+
+.slider-item{
+    position: relative;
+}
+.slider-item h1{
+    color: #efefef;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 4rem;
+}
+.slider-item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Carousel */
+
+.news_image{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+/* Карточки новости */
+
+
+
+
+
+
+.news{
+    width: 90%;
+    margin:  auto;
+    margin-top: 100px;
+}
+.generalNew{
+    display: flex;
+    justify-content: space-between;
+}
+
+.generalNew{
+    border-left: 5px solid #3e536f;
+    padding-left: 10px;
+}
+.generalNew a{
+    color: black;
+    text-decoration: none;
+}
+.centerNew{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    list-style: none;
+}
+.icons li{
+    margin: 0 10px !important;
+    font-size: 25px;
+}
+.inlineNews{
+    display: flex;
+    justify-content: center;
+}
+.inlineNews .cards{
+    margin: 0 20px;
+}
+.cards{
+    transition: 0.5s;
+    box-shadow: 0 5px 20px gainsboro;
+    width: 320px !important;
+    height: 300px;
+    position: relative;
+}
+.cards:hover{
+    border-bottom: 3px solid #3e536f;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.cards .imgcard img{
+    width: 100%;
+}
+.cards-body{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.cards-body p:nth-child(1){
+    color: grey;
+}
+.cards-body p:nth-child(2){
+    font-size: 16px !important;
+}.news{
+    width: 90%;
+    margin:  auto;
+    margin-top: 100px;
+}
+.generalNew{
+    display: flex;
+    justify-content: space-between;
+}
+
+.generalNew{
+    border-left: 5px solid #3e536f;
+    padding-left: 10px;
+}
+.generalNew a{
+    color: black;
+    text-decoration: none;
+}
+.centerNew{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+.inlineNews{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inlineNews .cards{
+    margin: 20px 20px;
+}
+.cards{
+    box-shadow: 0 5px 20px gainsboro;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+.cards:hover{
+    border-bottom: 3px solid #3e536f;
+}
+.cards .imgcard img{
+    width: 100%;
+}
+.cards-body{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.cards-body p:nth-child(1){
+    color: grey;
+}
+.cards-body p:nth-child(2){
+    font-size: 20px;
+}
+
+
+
+.cards-body a{
+    margin: 20px 0 !important;
+    padding: 10px 20px;
+    color:white;
+    text-decoration: none;
+    background-color: #3e536f;
+    border-radius:10px;
+}
+.cards-body a:hover{
+    color: white;
+}
+.bt{
+    text-align: right;
+}
+
+
+
+
+
+
+.news_slider_title{
+    padding: 0rem 2rem;
+}
+
+@media screen and (max-width: 992px){
+    .news_slider_title{
+        font-size: 2.6rem !important;
+    }
+}
+
+@media screen and (max-width: 735px){
+    .news_slider_title{
+        font-size: 2.2rem !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .news_slider_title{
+        font-size: 1.8rem !important;
+    }
+    .slick-slide{
+        width: 100%;
+        height: 70vh;
+    }
+    .slider-item h1{
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .news_slider_title{
+        font-size: 1.5rem !important;
+        padding: 0rem 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:329px){
+    .cards{
+        box-shadow: 0 5px 20px gainsboro;
+        width: 400px;
+        height: 540px;
+        position: relative;
+    }
+}
+

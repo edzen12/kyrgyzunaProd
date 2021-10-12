@@ -1,0 +1,271 @@
+/* Color blue */
+.certificateColor{
+    color: #3e536f;
+}
+
+/* Main */
+
+/* Background  */
+
+
+
+
+.sertBanner{
+    background: url("../../assets/Сертификаты/certificate-bg.jpg") center / cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.sertBanner:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+.textS{
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.textS h1{
+    color: #efefef;
+    position: relative;
+    padding-left: 80px;
+    font-size: 75px;
+}
+
+
+
+
+/* 
+    БЛОКИ  СЕРТИФИКАТЫ И ТЕКСТА
+*/
+
+
+
+
+.paperBlock{
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+}
+.firstInline{
+    display: flex;
+    justify-content: space-around;
+}
+.secondInline{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.threeInline{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    padding-top: 50px;
+}
+.left h3{
+    padding-bottom: 20px;
+}
+.left .aw{
+    color: #3e536f;
+    font-size: 45px;
+    text-align: center;
+}
+.left p{
+    width: 500px;
+}
+.right img{
+    box-shadow: 0 5px 20px black;
+
+}
+
+
+
+/* Media */
+
+
+
+/* BANNNER */
+
+
+
+@media (max-width:866px)
+{
+    .textS{
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textS h1{
+        color: white;
+        position: relative;
+        padding-left: 0px !important;
+        font-size: 75px;
+    }
+    
+    
+}
+
+
+@media (max-width:597px){
+    .textS h1{
+        color: white;
+        position: relative;
+        padding-left: 0px !important;
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width:406px){
+    .sertBanner{
+        height: 70vh;
+    }
+
+    .textS h1{
+        color: white;
+        position: relative;
+        padding-left: 0px !important;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERTIFICATES */
+
+
+
+
+
+
+
+
+@media (max-width:1068px){
+    .firstInline{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left p{   
+        width: 100%; 
+    }
+    .left {
+        text-align: center;
+    }
+
+    .paperBlock{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .secondInline{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .threeInline{
+        margin-top: 150px;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:681px){
+    .right img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.certificate_carousel{
+    margin: 5rem auto;
+    width: 100%;
+}
+.certificate_slide{
+    text-align: center;
+}
+
+
+.certificate_carousel{
+    max-width: 1450px;
+}
+
+@media screen and (max-width: 720px){
+    .certificate_slide{
+        padding: 1rem 3rem;
+    }
+    .certificate_slide img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .certificate_slide{
+        padding: 1rem 5rem;
+    }
+    .certificate_slide img{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .certificate_slide{
+        padding: 1rem 2.5rem;
+    }
+    .certificate_slide img{
+        width: 100% !important;
+    }
+}

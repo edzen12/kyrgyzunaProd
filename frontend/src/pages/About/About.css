@@ -1,0 +1,826 @@
+    /* Заднйи фон о нас здание */
+
+
+
+
+
+    .LightBanner{
+        background: url('../../assets/О нас/about-bg.jpg') center / cover;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        position: relative;
+
+    }
+
+    .LightBanner:before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: '';
+        left:0;
+        top: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+    }
+
+    .firstAbout{
+        height: 100%;
+        align-items: center;
+        border-left: 5px solid #efefef;
+        padding-left: 20px;
+    }
+    .firstAbout h1{
+        color: #efefef;
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: 2px 2px 3px rgba(255,255,255,.5);
+    }
+
+
+
+
+    .bannerAbout{
+        position: absolute;
+        z-index: 20;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* ABOUT */
+
+
+
+
+
+
+    .onasCenter{
+        width: 60%;
+        margin: auto;
+    }
+    .textO h1{
+        text-align: left;
+        font-size:40px;
+        margin-top: 50px;
+    }
+    .textO .text{
+        margin-top: 50px;
+        
+    }
+    .textO .text p{
+        color: #767676 !important;
+        font-size: 20px;
+    }
+    .textO .TextWithDate{
+        color: #767676;
+        font-style: italic;
+    }
+
+    .border-left{
+        border-left: 3px solid #3e536f;
+        padding-left: 20px;
+    }
+
+
+
+
+
+
+
+    /* Миссияя блок*/
+
+
+
+
+
+    .centerMission{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .inlineMission{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nas h1{
+        font-size: 60px;
+    }
+    .nas{
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+    .vidos{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .textM{
+        padding-top: 40px;
+    }
+    .textM h1{
+        font-size: 60px !important;
+        text-transform: uppercase;
+    }
+    .textM p{
+        color: #767676;
+        font-size: 20px;
+    }
+    .buss img{
+        width: 600px; 
+        border-radius: 100%;
+        transition: 0.4s;
+    }
+    .buss img:hover{
+        transform: scale(1.3);
+        transition: 0.4s;
+
+    }
+
+    .Lorem{
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+    
+
+    /* goal */
+
+
+
+
+
+
+
+    .centerGoal{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px !important;
+        position: relative;
+    }
+
+
+    .scale {
+        background: url('../../assets/О нас/mans.jpg') center / cover;
+        width: 100%;
+        height: 400px;
+        transition: 1s;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .scale:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,.8);
+        transition: 1s;
+        transition-delay: 1s;
+    }
+    .scale:hover::before{
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(255,255,255,0.1);
+        transform: skew(-100deg);
+        transition: .3s;
+        transition-duration: 1s;
+        z-index: 5;
+    }
+    .leftImg{
+        overflow: hidden;
+    }
+    .goalText {
+        padding:90px;
+        color: #efefef;
+        z-index: 10;
+    }
+    .goalText h1{
+        font-size: 60px;
+    }
+    .goalText p{
+        font-size:20px;
+    }
+    .scale:hover{
+        transform: scale(1.2);
+        transition:1s;
+
+    }
+    .scale:hover .goalText{
+        color: #efefef;
+    }
+
+
+
+
+    /*  Ценности - качество */
+
+
+
+    .cenT h1{
+        font-size: 50px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .cardBlockCenter{
+        width: 95%;
+        margin:  auto;
+        margin-top: 50px;
+    }
+
+    .cardBlockInline{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardBlockCennoct{
+        width:300px;
+        height: 400px;
+        text-align: center;
+        margin: 1rem 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        transition: 0.7s;
+        background-color:rgba(0,0,0,0.8) ;
+    }
+    .cardBlockCennoct:hover{
+        transition: 0.7s;
+        color: #efefef !important;
+    }
+
+    .cardBlockCennoct p{
+        color: grey;
+        font-size: 18px;
+    }
+     .cardBlockCennoct:hover i{   
+        transition: 0.7s;
+        color: #efefef;
+    }
+     .cardBlockCennoct:hover p{   
+        transition: 0.7s;
+        color: #efefef;
+    }
+
+    .cardBlockCennoct i{
+        font-size: 55px;
+        color: #767676;
+        margin-bottom: 10px;
+        margin-top: 2rem;
+    }
+    .cardBlockCennoct h1{
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA ADAPTIVE */
+
+
+/* BANNER */
+
+.bannerCenterAbout{
+    width: 90%;
+    z-index: 4;
+    position: relative;
+    margin:  auto;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+@media (max-width:854px){
+    .bannerCenterAbout{
+        width: 90%;
+        z-index: 4;
+        position: relative;
+        margin:  auto;
+        height: 80%;
+        display: flex ;
+        align-items:center;
+        
+    }
+
+}
+
+@media (max-width:1170px){
+    .firstAbout h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:962px){
+    .bannerCenterAbout{
+        width: 90%;
+        z-index: 4;
+        position: relative;
+        margin:  auto;
+        height: 90%;
+        display: flex ;
+        align-items:center;
+        
+    }
+
+    .firstAbout h1{
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 850px){
+    .firstAbout h1{
+        font-size: 45px;
+    }
+    .bannerCenterAbout{
+        height: 100%;
+        
+    }
+}
+
+
+@media (max-width:766px){
+    .bannerAbout{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:565px){
+    .firstAbout h1{
+        font-size: 35px;
+    }
+
+
+}
+
+
+
+@media (max-width:417px){
+    .firstAbout h1{
+        font-size: 40px !important;
+    }
+    .firstAbout{
+        margin-top:     30px;
+        margin-left: 20px;
+        border-left: 5px solid #efefef;
+        padding-left: 10px;
+    }
+  
+}
+
+
+@media (max-width:565px){
+    .bannerCenterAbout{
+        width: 90%;
+    }
+    .firstAbout{
+        margin-top:     30px;
+        margin-left: 0px;
+        border-left: 5px solid #efefef;
+        padding-left: 10px;
+    }
+}
+
+
+
+@media (max-width:483px){
+    .firstAbout h1{
+        font-size: 30px !important;
+    }
+    .bannerAbout {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:440px){
+    .firstAbout h1{
+        font-size: 25px !important;
+        line-height: 1.5;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .firstAbout h1{
+        font-size: 23px !important;
+        width: 200px;
+        line-height: 2;
+
+    }
+    .firstAbout{
+        padding-left: 2px;
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT */
+
+
+
+
+
+@media (max-width:580px){
+
+.onasCenter{
+    width: 80%;
+    margin: auto;
+}
+.textO h1{
+    text-align: left;
+    font-size:40px;
+    margin-top: 50px;
+}
+.textO .text{
+    margin-top: 50px;
+    
+}
+.textO .text p{
+    color: #767676 !important;
+    font-size: 20px;
+}
+.textO .TextWithDate{
+    color: #767676;
+    font-style: italic;
+}
+
+.border-left{
+    border-left: 3px solid #3e536f;
+    padding-left: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VIDEO */
+
+
+@media (max-width:794px){
+    .vidos iframe{
+        width: 95%;
+    }
+}
+@media (max-width:450px){
+    .vidos iframe{
+        width: 98%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+MISSION
+
+
+
+ */
+
+@media (max-width:1814px){
+    .centerMission{
+        width: 60%;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:1639px){
+    .centerMission{
+        width: 70%;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width:1410px){
+    .centerMission{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+ @media (max-width:1173px){
+    .centerMission{
+        width: 60%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .inlineMission{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nas{
+        text-align: center;
+        margin-top: 50px;
+
+    }
+    .vidos{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .textM{
+        padding-top: 30px;
+    }
+    .textM h1{
+        font-size: 40px !important;
+        text-transform: uppercase;
+    }
+    .textM p{
+        color: #767676;
+        font-size: 20px;
+    }
+    .buss img{
+        width: 100%; 
+        border-radius: 100%;
+        transition: 0.4s;
+    }
+ }
+
+
+
+@media (max-width:580px){
+    .centerMission{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GOAL */
+
+@media (max-width:597px){
+    .goalText {
+        padding:50px;
+        color: #efefef;
+        z-index: 10;
+    }
+    .goalText h1{
+        font-size: 40px;
+    }
+    .goalText p{
+        font-size:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 5 cards  */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1136px){
+    .cardBlockCennoct{
+        width:400px;
+        height: 320px;
+        text-align: center;
+        margin: 10px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        transition: 0.7s;
+        background-color:rgba(0,0,0,0.8) ;
+    }
+}
+
+
+
+@media (max-width:968px){
+    .cardBlockCennoct{
+        width:300px;
+        height: 320px;
+        text-align: center;
+        margin: 10px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        transition: 0.7s;
+        background-color:rgba(0,0,0,0.8) ;
+    }
+}
+
+
+
+@media (max-width:757px){
+    .cardBlockCennoct{
+        width:270px;
+        height: 320px;
+        text-align: center;
+        margin: 10px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        transition: 0.7s;
+        background-color:rgba(0,0,0,0.8) ;
+    }
+}
+
+
+@media (max-width:694px){
+    .cardBlockCennoct{
+        width:100%;
+        height: 320px;
+        text-align: center;
+        margin: 10px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        transition: 0.7s;
+        background-color:rgba(0,0,0,0.8) ;
+    }
+}
+
+
+
+@media (max-width:355px){
+    .cardBlockCennoct{
+        width:100%;
+        height: 400px;
+        text-align: center;
+        margin: 10px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        transition: 0.7s;
+        background-color:rgba(0,0,0,0.8) ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

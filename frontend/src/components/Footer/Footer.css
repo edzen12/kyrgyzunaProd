@@ -1,0 +1,215 @@
+.centerFooter{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot ol{
+    list-style: none;
+    margin: 0 20px !important;
+    
+}
+.foot ol li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+.foot a:hover{
+    color:  #3e536f;
+}
+.foot ol li{
+    margin: 10px 0;
+}
+.foot ol b{
+    font-size: 20px;
+}
+.polit{
+    display: flex;
+    justify-content: space-around;
+}
+.polit ol{
+    display: flex;
+}
+.polit ul{
+    list-style: none;
+    font-size: 20px;
+}
+.polit ol li{
+
+    list-style: none;
+    margin: 0 20px;
+}
+.polit ol li a{
+    color: black;
+    text-decoration: none;
+}
+.polit .icons a i:hover{
+    color:rgba(0,0,0,.8) !important;
+}
+.bolds{
+    font-weight: bolder !important;
+}
+
+.polit .icons{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.polit .icons li{
+    margin: 0 10px !important;
+    font-size: 35px;
+}
+.polit .icons li a{
+    color: black;
+}
+
+.polit .osoo{
+    padding-top: 15px;
+    
+}
+
+
+
+/* Media */
+
+@media (max-width:1762px){
+    .foot ol{
+        margin: 0 20px;
+        list-style: none;
+    }
+}
+
+@media (max-width:1482px){
+    .foot ol{
+        margin: 0 20px;
+        list-style: none;
+    }
+}
+
+@media (max-width:1410px){
+    .foot ol{
+        margin: 0 15px;
+        list-style: none;
+    }
+}
+
+@media (max-width:1356px){
+    .foot ol{
+        margin: 0 10px !important;
+        list-style: none;
+    }
+}
+
+@media (max-width:1292px){
+    .foot ol{
+        margin: 0 10px;
+        list-style: none;
+    }
+}
+
+
+@media (max-width:1229px){
+    .foot ol{
+        margin: 0 5px !important;
+        list-style: none;
+    }
+}
+@media (max-width:1166px){
+    .foot ol{
+        margin: 0 0px !important ;
+        list-style: none;
+    }
+}
+@media (max-width:1103px){
+    .foot ol{
+        margin: 0 -5px !important;
+        list-style: none;
+    }
+}
+
+@media (max-width:1041px){
+    .foot ol li a{
+        font-size: 13px;
+    }
+}
+@media (max-width:969px){
+    footer{
+        background: rgba(0,0,0,.9);
+    }
+    .foot hr{
+        border:1px solid gray !important;
+    }
+    .foot{
+        padding-top: 30px;
+        flex-direction: column;
+    }
+    .foot ol li a{
+        color: gainsboro;
+    }
+    .foot ol li b{
+        color: #3e536f;
+    }
+    .polit ul{
+        color: white;
+    }
+    .bolds{
+        color: #3e536f !important;
+    }
+    .icons{
+        display: flex;
+        list-style: none;
+    }
+    .icons li{
+        margin: 0 20px  !important;
+        font-size: 20px;
+    }
+    .polit .icons li a{
+        color: white;
+    }
+    .polit .icons li a:hover{
+        color: #3e536f;
+    }
+}
+
+@media (max-width:398px){
+    .polit ul li{
+        color: white;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:610px){
+    .osoo{
+        padding-left: 0px !important;
+    }
+  .polit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:320px){
+    .polit .osoo li{
+        font-size: 14px !important;
+    }
+}
+
+/* Social net */
+
+.social-icons{
+    width: 50px;
+}
+
+@media (max-width: 500px){
+    .social-icons{
+        width: 40px;
+    }
+}

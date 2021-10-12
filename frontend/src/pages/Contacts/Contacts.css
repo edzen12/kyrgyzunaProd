@@ -1,0 +1,474 @@
+/* ЗАДНИЙ ФОН ДВА МУЖИКА */
+
+
+
+
+
+.bannerContacts{
+  background: url('../../assets/Главная/contacts-bg.jpg') top / cover;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.bannerContacts:before{
+  background: rgba(0,0,0,.2);
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+  
+
+
+.bannerText_contacts {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.child{  
+  color: #efefef;
+  border:1px solid #efefef;
+  width: 500px;
+  padding: 20px;
+  margin-left: -2px;
+  transition: 0.3s;
+  position: relative;
+}
+.bannerText_contacts h1{
+    position: relative;
+
+}
+.bannerText_contacts a{
+    color: inherit;
+    text-decoration: none;
+}
+.bannerText_contacts a:hover{
+    color: inherit;
+}
+.child:hover{
+    background: #efefef;
+    transition: 0.3s;
+    color: black;
+}
+
+
+
+
+  /* БЛОК ПО СВЯЗИ ДИЛЛЕРАМ */
+
+
+
+
+
+.diller{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+  /* КОНТАКТНЫЕ И АДРЕСНЫЕ КАРТОЧКИ 5 ШТ */
+
+
+
+
+.contactsCenter{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.inlineContacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inlineContacts .cards_contacts{
+    margin: 0 15px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.inlineContacts .cards_contacts  .fa-phone{
+    color: gold;
+}
+.inlineContacts .cards_contacts  .fa-car{
+    color: red;
+}
+.inlineContacts .cards_contacts  .fa-money-bill-alt{
+    color: green;
+}
+.inlineContacts .cards_contacts  .fa-hand-holding-usd{
+    color: purple;
+}
+.inlineContacts .cards_contacts  .fa-wrench{
+    color: orange;
+}
+.inlineContacts .cards_contacts:hover{
+    background-color: #3e536f;
+    transition: 0.5s;
+}
+.inlineContacts .cards_contacts:hover h4{
+    color: #efefef;
+}
+.inlineContacts a{
+    color: inherit;
+    text-decoration: none;
+}
+.inlineContacts a:hover{
+    color: inherit;
+}
+.cards_contacts{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+}
+.icon{
+    width: 100%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.cards_contacts h4{
+    font-size: 20px;
+}
+
+
+  /* КАРТА И АДРЕСА */
+
+  .contacts_ul{
+    list-style: none !important;
+  }
+
+
+
+  .mapsCenter_contacts{
+    width: 80%;
+    margin:  auto;
+    margin-top: 50px;
+  }
+  .mapsInline_contacts{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .leftSide_contacts{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+  .leftSide_contacts_content{
+    width: 100%;
+  }
+  .leftSide_contacts_content a{
+    text-decoration: none;
+    color: #000;
+  }
+  .leftSide_contacts ul li{
+    margin: 2rem 0;
+    font-size: 1.2rem;
+  }
+
+
+/* MEDIA ADAPTIVE */
+
+
+
+
+
+/* BANNNNER */
+
+
+@media (max-width:1050px)
+{
+
+.bannerText_contacts {
+  display: flex;
+  align-items: center;
+  height: 80%;
+}
+.child{  
+  color: #efefef;
+  border:1px solid #efefef;
+  width: 350px;
+  padding: 10px;
+  margin-left: -2px;
+  transition: 0.3s;
+}
+.bannerText_contacts h1{
+  position: relative;
+
+}
+.bannerText_contacts a{
+  color: inherit;
+  font-size: 30px;
+  text-decoration: none;
+}
+}
+
+
+@media (max-width:921px){
+  .child{  
+    color: #efefef;
+    border:1px solid #efefef;
+    width: 350px;
+    padding: 10px;
+    margin-left: -2px;
+    transition: 0.3s;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:390px)
+{
+  .bannerText_contacts{
+    justify-content: center;
+    align-items: center;
+  }
+  .child{  
+    color: #efefef;
+    border:0;
+    transition: 0.3s;
+    margin-top: 200px;
+  }
+
+  .bannerText_contacts a{
+    color: inherit;
+    font-size:20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border:1px solid #efefef;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONNECT WITH CENTER */
+
+@media (max-width:858px){
+  .diller{
+    padding: 0 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 5 шт карточек */
+
+
+
+@media (max-width:1145px){
+  .inlineContacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  .inlineContacts .cards_contacts{
+    margin: 10px 15px;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+
+  .cards_contacts{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+
+@media (max-width:1074px){
+  .cards_contacts{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+
+
+
+@media (max-width:824px){
+  .cards_contacts{
+    width: 270px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+
+
+@media (max-width:750px){
+  .cards_contacts{
+    width: 240px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+@media (max-width:674px){
+  .cards_contacts{
+    width: 210px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+@media (max-width:599px){
+  .cards_contacts{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+
+@media (max-width:438px){
+  .cards_contacts{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+
+@media (max-width:332px){
+  .cards_contacts{
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 5px 20px gainsboro;
+    text-align: center;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAPS and ADRES  */
+
+
+
+@media (max-width:1145px){
+    .mapsInline_contacts{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    iframe{
+      width:800px;
+    }
+  
+  
+    .mapsCenter_contacts{
+      width: 80%;
+      margin:  auto;
+      margin-top: 50px;
+    }
+  }
+  
+  
+  
+  
+  
+  @media (max-width:1000px){
+    iframe{
+      width:600px;
+    }
+   
+  }
+  
+  
+  
+  @media (max-width:674px){
+    iframe{
+      width:500px;
+    }
+  }
+  
+  @media (max-width:599px){
+    iframe{
+      width:400px;
+    }
+  }
+  
+  
+  @media (max-width:438px){
+    iframe{
+      width:300px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
